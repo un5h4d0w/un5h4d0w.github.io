@@ -27,9 +27,18 @@ github_username:  un5h4d0w
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 3
+paginate_path: /page/:num/
+
+# owner: "un5h4d0w"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
