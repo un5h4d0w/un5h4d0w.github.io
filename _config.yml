@@ -27,7 +27,7 @@ github_username:  un5h4d0w
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
